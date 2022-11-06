@@ -11,7 +11,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className="navbar bg-base-200 shadow-lg py-4 px-4">
+        <div className="navbar bg-base-200 py-4">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -32,7 +32,7 @@ const Navbar = () => {
         <li><a>Item 3</a></li>
       </ul>
     </div>
-    <Link className="btn btn-ghost normal-case text-xl">
+    <Link to='/' className="btn btn-ghost normal-case text-xl">
         <img className='w-12' src={logo} alt="" />
         <div>
             <span style={{

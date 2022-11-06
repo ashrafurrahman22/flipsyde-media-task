@@ -1,9 +1,13 @@
 import React from 'react';
+import Post from './Post';
+import PostForm from './PostForm';
 
 const Home = () => {
     return (
-        <div>
-            <h2>This is home</h2>
+        <div className='px-6'>
+            <PostForm/>
+            
+            <Post/>
         </div>
     );
 };
