@@ -4,7 +4,7 @@ const usePostDetails = postId =>{
     const [data, setData] = useState({});
 
     useEffect(()=>{
-        const url = `http://localhost:5000/posts/${postId}`
+        const url = `https://nameless-river-47121.herokuapp.com/posts/${postId}`
         fetch(url)
         .then(res => res.json())
         .then(result => setData(result))

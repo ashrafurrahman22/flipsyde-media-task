@@ -10,7 +10,7 @@ const PostForm = () => {
     const onSubmit = data => {
     console.log(data)
 
-    axios.post('http://localhost:5000/posts', data)
+    axios.post('https://nameless-river-47121.herokuapp.com/posts', data)
     .then(response =>{
       const {data} = response;
       console.log(response);
